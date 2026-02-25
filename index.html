@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audacity Auto LLC</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; line-height: 1.6; color: #333; }
+    header { background: black; color: white; padding: 20px; text-align: center; }
+    nav a { margin: 0 15px; color: white; text-decoration: none; font-weight: bold; }
+    nav a:hover { color: #fcd34d; }
+    section { padding: 60px 20px; text-align: center; }
+    .hero { background: url('https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover; color: white; position: relative; height: 90vh; display: flex; align-items: center; justify-content: center; }
+    .hero::before { content: ""; position: absolute; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.6); }
+    .hero-content { position: relative; z-index: 1; max-width: 800px; }
+    .btn { display: inline-block; padding: 15px 30px; background: #fcd34d; color: black; font-weight: bold; border-radius: 30px; text-decoration: none; transition: background 0.3s; }
+    .btn:hover { background: #fbbf24; }
+    .services { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+    .service-card { background: #fff; padding: 20px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); max-width: 250px; }
+    footer { background: black; color: white; text-align: center; padding: 20px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Audacity Auto LLC</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2 style="font-size: 3em; margin-bottom: 20px;">Your Trusted Wholesale Auto Partner</h2>
+      <p style="font-size: 1.2em; margin-bottom: 30px;">Delivering quality vehicles with transparency and reliability.</p>
+      <a href="#contact" class="btn">Contact Us</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p style="max-width: 700px; margin: 20px auto;">
+      At Audacity Auto LLC, we specialize in connecting customers with premium pre-owned vehicles through a seamless and transparent wholesale process. Our mission is to make auto acquisition straightforward, affordable, and stress-free — empowering our clients to drive with confidence.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>Wholesale Auto Sales</h3>
+        <p>We offer high-quality vehicles at competitive wholesale prices.</p>
+      </div>
+      <div class="service-card">
+        <h3>Vehicle Sourcing</h3>
+        <p>Helping clients find specific models and makes from trusted suppliers.</p>
+      </div>
+      <div class="service-card">
+        <h3>Auto Consulting</h3>
+        <p>Expert advice on vehicle valuation, acquisition, and resale strategies.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Get in Touch</h2>
+    <p style="max-width: 700px; margin: 20px auto;">Ready to partner with us or have a question? Reach out today — we’d love to hear from you!</p>
+    <a href="mailto:info@audacityauto.com" class="btn">Email Us</a>
+  </section>
+
+  <footer>
+    <p>© 2026 Audacity Auto LLC. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
